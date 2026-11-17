@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #222222;
+}
+
+.horario {
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+    border-style: dotted;
+    border-spacing: 4px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Estilos de las celdas */
+th, td {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Encabezados */
+th {
+    background-color: #333333;
+    color: white;
+    height: 45px;
+}
+
+/* Filas pares */
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+/* Filas impares */
+tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+/* Actividades */
+.estudiar {
+    background-color: #126d24;
+    color: white;
+}
+
+.clases {
+    background-color: #126d24;
+    color: white;
+}
+
+.descansar {
+    background-color: #D6EEEE;
+    color: black;
+}
+
+/* Efecto al pasar el ratón */
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+tr:hover td {
+    background-color: #D6EEEE;
+}
